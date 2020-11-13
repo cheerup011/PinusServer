@@ -17,7 +17,7 @@
             "args": [
                 "NODE_ENV=production"
             ],
-            "program": "web-server/app.js" //"${file}"
+            "program": "game-server/dist/app.js" //"${file}"
         }
     ]
 }

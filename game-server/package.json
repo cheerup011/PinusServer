@@ -1,5 +1,5 @@
 {
-    "name": "PinusServer",
+    "name": "pinus-server",
     "version": "0.0.1",
     "private": false,
     "bin": {
@@ -11,15 +11,15 @@
         "build": "node_modules/.bin/tsc"
     },
     "dependencies": {
-        "@types/node": "8.10.54",
-        "@types/bluebird": "^3.5.19",
+        "bluebird": "^3.7.2",
         "pinus": "1.4.10",
-        "bluebird": "^3.5.1",
         "source-map-support": "^0.5.0",
-        "reflect-metadata": "^0.1.10"
+        "reflect-metadata": "^0.1.13"
     },
     "devDependencies": {
-        "tslint": "5.20.1",
-        "typescript": "3.7.3"
+        "@types/bluebird": "^3.5.33",
+        "@types/node": "^8.10.54",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.5"
     }
 }

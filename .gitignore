@@ -1,2 +1,3 @@
 node_modules
-game-server/dist
+game-server/dist/*
+!game-server/dist/config/
